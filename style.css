@@ -1,0 +1,192 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; /* Ajusta para coluna para garantir centralização vertical de todos os elementos */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Define uma altura mínima de 100% da viewport */
+    margin: 0;
+    padding: 20px; /* Adiciona padding ao redor do body */
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os itens do header */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção Principal */
+.hero {
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+.hero-content {
+    max-width: 800px; /* Ajusta a largura máxima do conteúdo */
+    margin: 0 auto;
+}
+
+.hero-image-um {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Limita a largura máxima da imagem */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+}
+
+.hero-image-dois {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Limita a largura máxima da imagem */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+}
+
+
+.hero .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Sobre Nós */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+/* Serviços */
+.services {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+.services .services-list {
+    display: flex;
+    justify-content: space-around; /* Ajusta para distribuir os itens igualmente */
+    flex-wrap: wrap;
+    gap: 20px; /* Adiciona espaçamento uniforme entre os itens */
+    max-width: 1000px;
+    margin: 0 auto; /* Centraliza a lista de serviços */
+}
+
+.service-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Contato */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px; /* Adiciona espaçamento inferior */
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centraliza todo o texto dentro do footer */
+    width: 100%;
+    margin-top: auto; /* Mantém o rodapé no fundo da página */
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove a margem padrão */
+    display: inline-block; /* Para que o ul se comporte como um bloco centralizado */
+}
+
+footer nav ul li {
+    display: inline-block; /* Para que os itens do menu fiquem lado a lado */
+    margin: 0 10px; /* Espaçamento horizontal entre os itens */
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
